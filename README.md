@@ -56,3 +56,18 @@ git add README。md
 git commit -m 描述
 
 git push
+
+
+现在我只添加test1文件，不添加test2文件 然后推送到远程仓库上去
+
+就是直接三条命令
+
+git add test1
+git commit -m "添加test1文件"
+git push
+
+现在我要添加所有我创建的或者更新的文件，然后推送到远程仓库上去
+
+git add --all
+git commit -m "添加所有文件"
+git push
